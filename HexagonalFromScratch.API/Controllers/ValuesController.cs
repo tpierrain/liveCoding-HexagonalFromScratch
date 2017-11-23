@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using HexagonalFromScratch.Infra;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HexagonalFromScratch.API.Controllers
