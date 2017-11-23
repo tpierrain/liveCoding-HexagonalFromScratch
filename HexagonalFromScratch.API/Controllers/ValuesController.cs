@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using HexagonalFromScratch.Infra;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HexagonalFromScratch.API.Controllers
@@ -8,16 +9,16 @@ namespace HexagonalFromScratch.API.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new[] {"value1", "value2"};
+            return "Supa result";
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //// GET api/values/5
+        //[HttpGet("{id}")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
     }
 }
